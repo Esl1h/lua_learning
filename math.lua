@@ -22,9 +22,9 @@ print(x*6)
 
 -- 
 
-a = {58}
+a = {58,98,18,45}
 
-print("Soma de elementos de um array:")
+print("Soma de elementos do array: " .. add(a) )
 function add (a)
     local sum = 0
     for i = 1,#a do sum = sum + a[i] end
